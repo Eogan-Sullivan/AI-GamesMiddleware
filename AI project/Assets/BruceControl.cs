@@ -145,7 +145,7 @@ public class BruceControl : NetworkBehaviour
 
 
     
-       [Command] private void CmdFireBullet()
+     [Command]private void CmdFireBullet()
     {
         
        
@@ -160,6 +160,9 @@ public class BruceControl : NetworkBehaviour
 
     public void FootL() { }
 
+    public void Jump() { }
+
+    public void Land() { }
 
       void OnCollisionEnter(Collision collision)
     {
