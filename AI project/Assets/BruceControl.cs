@@ -167,6 +167,7 @@ public class BruceControl : NetworkBehaviour
       void OnCollisionEnter(Collision collision)
     {
         anim.SetBool("isHit", true);
+        Destroy(this);
     }
 }
 
